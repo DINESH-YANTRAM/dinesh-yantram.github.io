@@ -97,12 +97,18 @@ a:hover {
   color: #0057a6;
 }
 /* Logo image control */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .logo img {
-  height: 60px;        /* Adjust this size as you like (40–60px works best) */
-  width: auto;         /* Keeps proportions */
+  height: 44px;      /* tweak between 36–52px depending on your taste */
+  width: auto;
   object-fit: contain;
   display: block;
 }
+
 
 /* Hero */
 .hero {
@@ -467,6 +473,7 @@ a:hover {
     padding: 3rem 0;
   }
 }
+
 
 
 
