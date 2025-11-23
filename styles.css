@@ -96,6 +96,13 @@ a:hover {
 .nav a:hover {
   color: #0057a6;
 }
+/* Logo image control */
+.logo img {
+  height: 48px;        /* Adjust this size as you like (40–60px works best) */
+  width: auto;         /* Keeps proportions */
+  object-fit: contain;
+  display: block;
+}
 
 /* Hero */
 .hero {
@@ -460,3 +467,4 @@ a:hover {
     padding: 3rem 0;
   }
 }
+
