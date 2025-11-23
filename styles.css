@@ -96,6 +96,7 @@ a:hover {
 .nav a:hover {
   color: #0057a6;
 }
+
 /* Logo image control */
 .logo {
   display: flex;
@@ -108,7 +109,6 @@ a:hover {
   object-fit: contain;
   display: block;
 }
-
 
 /* Hero */
 .hero {
@@ -244,7 +244,6 @@ a:hover {
 
 .timeline li {
   margin-bottom: 0.9rem;
-  padding-left: 0.5rem;
   border-left: 2px solid #c3cedf;
   padding-left: 0.75rem;
 }
@@ -446,16 +445,6 @@ a:hover {
 
 /* Responsive */
 @media (max-width: 900px) {
-  .hero-inner {
-    flex-direction: column;
-    text-align: left;
-  }
-
-  .hero-visual {
-    width: 100%;
-  }
-
-  /* keep nav visible but stack it */
   .header-inner {
     flex-direction: column;
     align-items: flex-start;
@@ -473,8 +462,11 @@ a:hover {
     margin-left: 0;
     font-size: 0.9rem;
   }
-}
 
+  .hero-inner {
+    flex-direction: column;
+    text-align: left;
+  }
 
   .hero-visual {
     width: 100%;
@@ -482,10 +474,6 @@ a:hover {
 
   .two-column {
     grid-template-columns: minmax(0, 1fr);
-  }
-
-  .nav {
-    display: none; /* simple: hide nav on very small screens; can add burger later */
   }
 }
 
@@ -498,10 +486,3 @@ a:hover {
     padding: 3rem 0;
   }
 }
-
-
-
-
-
-
-
