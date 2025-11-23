@@ -98,7 +98,7 @@ a:hover {
 }
 /* Logo image control */
 .logo img {
-  height: 40px;        /* Adjust this size as you like (40–60px works best) */
+  height: 60px;        /* Adjust this size as you like (40–60px works best) */
   width: auto;         /* Keeps proportions */
   object-fit: contain;
   display: block;
@@ -467,6 +467,7 @@ a:hover {
     padding: 3rem 0;
   }
 }
+
 
 
 
